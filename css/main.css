@@ -4,13 +4,33 @@
    Author's custom styles
    ========================================================================== */
 
+#comercial-header,
+#featured,
+#games {
+	margin-top: 20px;
+}
 
+#featured, div[class*="col-md"] {
+	/*padding: 2px;*/
+}
 
+.game > ul {
+	background: #282c33;
+}
 
+.game > ul > li {
+	margin-left: 15px;
+}
 
+.game, span {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FAFAFA;
+}
 
-
-
+.img-time {
+	width: 4rem;
+	height: 4rem;
+}
 
 
 
