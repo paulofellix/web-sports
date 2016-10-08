@@ -3,34 +3,34 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
 
 #comercial-header,
 #featured,
-#games {
+#jogos {
 	margin-top: 20px;
 }
 
-#featured, div[class*="col-md"] {
-	/*padding: 2px;*/
+.jogo {
+	background-color: #282c33;
+	color: white;
+	margin: 0px;
 }
 
-.game > ul {
-	background: #282c33;
+.jogo > div {
+	padding-top: 10px;
 }
 
-.game > ul > li {
-	margin-left: 15px;
-}
 
-.game, span {
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: #FAFAFA;
-}
 
-.img-time {
-	width: 4rem;
-	height: 4rem;
-}
+
+
+
+
+
 
 
 
